@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+  background-color: rgb(26, 26, 26);
+  font-family: Helvetica, Arial, sans-serif; /* Fallback font added */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center-aligns all text */
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 60px;
+  color: blue;
+  padding: 30px;
+  margin: 10px;
+
+}
+
+h2 {
+  color: rgb(0, 0, 255); /* Same as blue, using rgb */
+  font-size: 40px;
+  margin-bottom: 100px;
+  
+}
+
+h3 {
+  clear: both;
+  font-size: 40px;
+  color: white;
+  padding: 30px;
+  margin: 10px
+}
+
+h4 {
+  clear: both;
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+  margin: 20px
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 30px;
+  color: white;
+  padding: 200px;
+  
+}
+
+/* Button Styles */
+.navi {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.229);
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  width: 200px;
+  height: 60px;
+  box-shadow: 10px 10px 0px blue;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+button {
+  font-size: 20px;
+  text-align: center;
+  background-color: blue;
+  color: rgb(0, 0, 0);
+  border: solid 2px;
+  border-radius: 0px;
+  width: 200px;
+  height: 60px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin: 10px; /* Adds some space between buttons */
+}
+
+button:hover {
+  background-color: black;
+  color: blue;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+.resume-button {
+  font-size: 30px;
+  width: 300px;
+  height: 80px;
+  background-color: black;
+  color: blue;
+  cursor: pointer;
+  box-shadow: 10px 10px 0px rgba(0, 0, 255, 0.666);
+  border-radius: 1px;
+  margin-bottom: 200px;
+
+}
+
+.resume-button:hover {
+  opacity: 0.7;
+  background-color: blue;
+  color: black;
+  border-color: blue;
+}
+
+.resume-button:active {
+  opacity: 0.4;
+}
+
+.instagram-button {
+  font-size: 20px;
+  text-align: center;
+  background-color: blue;
+  color: rgb(0, 0, 0);
+  border: solid 2px;
+  border-radius: 0px;
+  width: 200px;
+  height: 60px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  margin: 10px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+/* Image Styles */
+.self-portrait {
+  width: 300px;
+  height: auto;
+  border: 3px solid blue;
+  border-radius: 0px;
+  box-shadow: 20px 20px 0px rgba(0, 0, 255, 0.838);
+  margin: 100px auto;
+  display: block;
+  cursor: pointer;
+  margin-top: 200px;
+}
+
+.self-portrait:hover {
+  opacity: 0.7
+}
+
+.self-portrait:active {
+  opacity: 0;
+}
+
+.project-titles {
+  float: right;
+}
+
+.Badge {
+  width: 300px;
+  float: left;
+}
+
+.description {
+  clear: both;
+  float: right;
+  
+}
