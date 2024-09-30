@@ -7,44 +7,51 @@ body {
   text-align: center; /* Center-aligns all text */
 }
 
+/* Animation Styles */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Heading Styles */
+h1, h2, h3, h4 {
+  margin: 40px 0; /* Increased vertical margins for spacing */
+}
+
 h1 {
   font-size: 60px;
   color: blue;
-  padding: 30px;
-  margin: 10px;
-
+  padding: 20px 0;
 }
 
 h2 {
   color: rgb(0, 0, 255); /* Same as blue, using rgb */
   font-size: 40px;
-  margin-bottom: 100px;
-  
 }
 
 h3 {
-  clear: both;
   font-size: 40px;
   color: white;
-  padding: 30px;
-  margin: 10px
+  padding: 20px 0;
 }
 
 h4 {
-  clear: both;
   font-size: 30px;
   color: white;
-  padding: 30px;
-  margin: 20px
+  padding: 20px 0;
 }
 
 /* Paragraph Styles */
 p {
   font-size: 30px;
   color: white;
-  padding: 200px;
-  
+  padding: 40px 20px; /* Added padding for spaciousness */
 }
 
 /* Button Styles */
@@ -54,30 +61,25 @@ p {
   background-color: rgba(0, 0, 255, 0.229);
   color: #ffffff;
   border: none;
-  border-radius: 0px;
+  border-radius: 0;
   width: 200px;
   height: 60px;
   box-shadow: 10px 10px 0px blue;
   cursor: pointer;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  
+  margin: 20px; /* Adjusted margin for buttons */
 }
 
 button {
   font-size: 20px;
-  text-align: center;
   background-color: blue;
   color: rgb(0, 0, 0);
   border: solid 2px;
-  border-radius: 0px;
+  border-radius: 0;
   width: 200px;
   height: 60px;
   box-shadow: 2px 2px 2px black;
   cursor: pointer;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  margin: 10px; /* Adds some space between buttons */
+  margin: 20px; /* Consistent margin for buttons */
 }
 
 button:hover {
@@ -98,8 +100,7 @@ button:active {
   cursor: pointer;
   box-shadow: 10px 10px 0px rgba(0, 0, 255, 0.666);
   border-radius: 1px;
-  margin-bottom: 200px;
-
+  margin: 40px 0; /* More spacing around the resume button */
 }
 
 .resume-button:hover {
@@ -113,20 +114,21 @@ button:active {
   opacity: 0.4;
 }
 
-.instagram-button {
-  font-size: 20px;
-  text-align: center;
-  background-color: blue;
-  color: rgb(0, 0, 0);
-  border: solid 2px;
-  border-radius: 0px;
-  width: 200px;
-  height: 60px;
-  box-shadow: 2px 2px 2px black;
-  cursor: pointer;
-  margin: 10px;
-  margin-bottom: 50px;
-  margin-top: 30px;
+/* Social Media Icons */
+.social-media {
+  display: flex; /* Aligns the icons in a row */
+  justify-content: center; /* Centers the icons horizontally */
+  margin: 20px 0; /* Adds some spacing around the icons */
+}
+
+.social-media a {
+  color: white; /* Default color for icons */
+  transition: color 0.3s; /* Smooth transition for color change */
+  margin: 10px; /* Spacing between icons */
+}
+
+.social-media a:hover {
+  color: blue; /* Color change on hover */
 }
 
 /* Image Styles */
@@ -134,33 +136,38 @@ button:active {
   width: 300px;
   height: auto;
   border: 3px solid blue;
-  border-radius: 0px;
+  border-radius: 0;
   box-shadow: 20px 20px 0px rgba(0, 0, 255, 0.838);
-  margin: 100px auto;
+  margin: 80px auto; /* More spacing around the portrait */
   display: block;
   cursor: pointer;
-  margin-top: 200px;
 }
 
 .self-portrait:hover {
-  opacity: 0.7
+  opacity: 0.7;
 }
 
 .self-portrait:active {
   opacity: 0;
 }
 
+/* Project Section Styles */
+.project-section {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Aligns items vertically */
+  margin: 40px 0; /* Margin for spacing above and below the section */
+}
+
 .project-titles {
-  float: right;
+  margin-right: 20px; /* Adds space between the title and description */
 }
 
 .Badge {
   width: 300px;
-  float: left;
 }
 
 .description {
-  clear: both;
-  float: right;
-  
+  max-width: 400px; /* Sets a maximum width for the description */
+  text-align: left; /* Aligns the text to the left */
 }

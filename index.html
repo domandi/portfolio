@@ -8,86 +8,112 @@
 
 <body>
 
-<!--Navigation Bar-->
+  <!-- Navigation Bar -->
+  <a><button class="navi">About Me</button></a>
+  <a><button class="navi">Skills</button></a>
+  <a><button class="navi">Projects</button></a>
+  <a><button class="navi">Contact</button></a>
 
-<a><button class="navi">About Me</button></a>
-<a><button class="navi">Skills</button></a>
-<a><button class="navi">Projects</button></a>
-<a><button class="navi">Contact</button></a>
-
-
-
-  <!--Heading/Title-->
+  <!-- Heading/Title -->
   <img src="Images/Portrait.png" alt="Portrait" class="self-portrait">
-  <h1>
-    Tony Domante
-  </h1>
-  <h2>
-    Front-End Developer
-  </h2>
-    <a href="https://drive.google.com/file/d/1D8PyPCiE4AZ-Y-DbRX2aSrkDM-9ICN9n/view?usp=drive_link"
-    target="_blank">
-        <button class="resume-button">View My Résumé</button>
-    </a>
-  <!--Basic Website Text-->
+  <h1>Tony Domante</h1>
+  <h2>Front-End Developer</h2>
+  <a href="https://drive.google.com/file/d/1D8PyPCiE4AZ-Y-DbRX2aSrkDM-9ICN9n/view?usp=drive_link" target="_blank">
+    <button class="resume-button">View My Résumé</button>
+  </a>
 
-  <h3>
-    About Me
-  </h3>
-  <p>
-    Hello, my name is Tony Domante, and I am on a journey to become a software developer.<br>
-    My path has not been easy, as I have faced significant challenges throughout my life. Unlike many,<br>
-    I do not have the luxury of pursuing higher education in a traditional manner.<br>
-    However, I am determined to overcome these obstacles by becoming a self-taught programmer.<br>
-    My aim is to secure a stable job that will allow me to support myself while pursuing my ultimate<br>
-    goal of studying electrical engineering.
-  </p>
-  <p>
-    Becoming a software developer is only the first step in my larger vision. My passion lies in the<br>
-    creation and development of technology that can improve the world and make it a safer place. I firmly<br>
-    believe that to achieve this, it is essential to pair innovative hardware with equally well-designed<br>
-    software. By mastering software development, I will be equipped to design and integrate the best<br>
-    possible software solutions for the hardware products I aim to create in the future.<br>
-  </p>
-  <p>
-    Although I am starting from scratch, I have found the learning process to be both challenging and<br>
-    fulfilling. I already have several ideas in mind for projects that will help me build my developer<br>
-    portfolio, and I am committed to refining my skills. This is just the beginning of my journey to<br>
-    becoming a skilled engineer, and I look forward to using my talents to contribute to the betterment of<br>
-    <strong>all mankind!</strong>
-  </p>
-
-  <h3>Skills</h3>
-  <p>Proficient in Apple hardware, macOS, iOS, and Windows, with familiarity in Linux. I have
-    advanced expertise in Adobe Creative Suite, particularly Photoshop, Illustrator, and
-    Acrobat Pro. My experience spans graphic design, with a portfolio of website and logo
-    designs, and creating marketing materials that boost brand visibility. I have extensive
-    customer service experience, including in restaurant settings, where I&apos;ve honed my skills
-    in building rapport, ensuring satisfaction, and working efficiently under pressure.
-    Additionally, I have strong analytical skills for resolving technical issues and excellent
-    communication abilities.</p>
-
-    <h3>Projects</h3>
-    <h4 class="project-titles">
-      The Tampa Report
-    </h4>
-    <p>Small local news website. Created for the purpose of spreading current events in a condensed and
-      coincise manner. Short, simple, elegant.
+  <!-- Basic Website Text -->
+  <section class="fade-in">
+    <h3>About Me</h3>
+    <p>Hey, I'm Anthony. This is my Front-End Developer Portfolio.
     </p>
+    <p>This page is currently being worked on, so please ignore anything strange.</p>
+    <p>I'm working on it right now.</p>
+  </section>
 
-    <img class="Badge" src="Images/Badge.png"
+  <section class="fade-in">
+    <h3>Skills</h3>
+    <p>Mastering HTML and CSS at the moment. Have worked on a bit of JavaScript.</p>
+    <p>Aside from my projects I have listed below, I've also designed and developed a website
+      with Shopify for my online store and integrated it with eBay's API to have live updates
+      on orders and accurate item quanities between the two platforms.
+    </p>
+</section>
 
-        <h3>Want to?</h3>
-        <h4>Reach out?</h4>
-        <p>placeholder paragraph text</p>
-        <h4>offer me a job?</h4>
-        <p>More placeholder</p>
+  <!-- Updated Projects Section -->
+  <section class="fade-in">
+    <h3>Projects</h3>
+    <div class="project-section"> <!-- Flex container -->
+      <h4 class="project-titles">The Tampa Report</h4> <!-- Project title above the image -->
+      <a href="https://domandi.github.io/tampa-report/" target="_blank">
+        <img class="Badge" src="Images/Badge.png" alt="Project Badge"></a>
+      <p class="description">Small local news website. Created for the purpose of spreading 
+        current events in a condensed and concise manner. Short, simple, elegant.</p>
+    </div> <!-- End of flex container -->
+    <div class="project-section"> <!-- Flex container -->
+      <h4 class="project-titles">Pokébition Digital</h4> <!-- Project title above the image -->
+      <a href="https://domandi.github.io/Pokebition-digital/" target="_blank">
+        <img class="Badge" src="Images/logo.png" alt="Pokebition Logo"></a>
+      <p class="description">Small business e-commerce website which exclusively sells digital products.</p>
+    </div> <!-- End of flex container -->
+    <div class="project-section"> <!-- Flex container -->
+      <h4 class="project-titles">Raid-Dex</h4> <!-- Project title above the image -->
+      <a href="https://domandi.github.io/raid-dex" target="_blank">
+        <img class="Badge" src="Images/raiddex.png" alt="Raid-Dex Logo"></a>
+      <p class="description">Interactive web app designed for the purpose of connecting Pokémon Go players worldwide. 
+        Allows players to post and join temporary raid lobbies. Players create an account in order to complete
+        an authentication process. Once a player joins a raid, the player has the ability to see the friend code for the host of the raid.
+        Lobbies expire after a certain period of time.
+      </p>
+    </div> <!-- End of flex container -->
+  </section>
 
-<!--Button Links-->
-<a href="https://www.instagram.com/anthonydomante/"><button class="instagram-button">Instagram</button></a>
-<a href="https://github.com/domandi"><button>Github</button></a>
-<a href="https://www.linkedin.com/in/adomante/"><button>LinkedIn</button></a>
+  <section class="fade-in">
+    <h3>Want to?</h3>
+    <h4>Reach out?</h4>
+    <p>placeholder paragraph text</p>
+    <h4>Offer me a job?</h4>
+    <p>More placeholder</p>
+  </section>
 
+<!-- Social Media Icons -->
+<div class="social-media">
+  <a href="https://www.instagram.com/anthonydomante/" target="_blank">
+    <i class="fab fa-instagram" style="font-size: 30px; color: white; margin: 10px;"></i>
+  </a>
+  <a href="https://github.com/domandi" target="_blank">
+    <i class="fab fa-github" style="font-size: 30px; color: white; margin: 10px;"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/adomante/" target="_blank">
+    <i class="fab fa-linkedin" style="font-size: 30px; color: white; margin: 10px;"></i>
+  </a>
+</div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Select all sections, except the first one
+      const elements = document.querySelectorAll('body > section');
+
+      function checkPosition() {
+        const triggerBottom = window.innerHeight * 0.8;
+
+        elements.forEach(element => {
+          const boxTop = element.getBoundingClientRect().top;
+
+          if (boxTop < triggerBottom) {
+            element.classList.add('fade-in-visible');
+          }
+        });
+      }
+
+      // Check position on scroll and resize
+      window.addEventListener('scroll', checkPosition);
+      window.addEventListener('resize', checkPosition);
+
+      // Initial check
+      checkPosition();
+    });
+  </script>
 </body>
 
 </html>
