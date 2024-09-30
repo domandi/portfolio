@@ -171,3 +171,8 @@ button:active {
   max-width: 400px; /* Sets a maximum width for the description */
   text-align: left; /* Aligns the text to the left */
 }
+
+.resume {
+  width: 900px;
+  float: center;
+}
